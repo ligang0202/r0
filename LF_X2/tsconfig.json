@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "rootDir": ".",
+        "module": "system",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outFile": "assets/app.js",
+        "declaration": true
+    },
+    "include": [
+        "scripts/**/*.ts"
+    ],
+    "exclude": [
+        "**/*.js",
+        "assets/*"
+    ]
+}

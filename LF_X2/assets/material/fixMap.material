@@ -1,0 +1,14 @@
+{
+	"effect": "material/fixMap.effect", 
+	"parameters":{
+		"fixVal":{
+			"type": "float32",
+			"value":0
+		}
+	},
+	"textures":{
+		"baseMap" : "", 
+		"markMap" : ""
+	}
+}
+

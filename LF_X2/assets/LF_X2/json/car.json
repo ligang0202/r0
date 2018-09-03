@@ -1,0 +1,1747 @@
+{
+	"carInfo": {
+		"carID": "430230539",
+		"carName": "陆风-X2"
+	},
+	"assets": {
+		"project": [
+			{
+				"name": "430230539",
+				"type": "ezm",
+				"url": "project://LF_X2/LF_X2.ezm"
+			},
+			{
+				"name": "lightOff",
+				"type": "texture",
+				"url": "project://LF_X2/lightOff.jpg"
+			},
+			{
+				"name": "lightOn",
+				"type": "texture",
+				"url": "project://LF_X2/lightOn.jpg"
+			}
+		],
+		"www": [
+			{
+				"name": "",
+				"type": "XXXX",
+				"url": ""
+			}
+		]
+	},
+	"autoCar": {
+		"inSideUIs": {
+			"uis": [
+				{
+					"name": "button_colour",
+					"isShow": "true"
+				},
+				{
+					"name": "button_hub",
+					"isShow": "false"
+				},
+				{
+					"name": "button_lights",
+					"isShow": "true"
+				},
+				{
+					"name": "button_photograph",
+					"isShow": "true"
+				},
+				{
+					"name": "button_info",
+					"isShow": "true"
+				},
+				{
+					"name": "button_dynamic",
+					"isShow": "true"
+				},
+				{
+					"name": "button_offer",
+					"isShow": "true"
+				},
+				{
+					"name": "button_praise",
+					"isShow": "true"
+				},
+				{
+					"name": "button_DoublePK",
+					"isShow": "true"
+				},
+				{
+					"name": "button_climb",
+					"isShow": "false"
+				},
+				{
+					"name": "button_refit",
+					"isShow": "false"
+				},
+				{
+					"name": "button_curve",
+					"isShow": "false"
+				},
+				{
+					"name": "button_voice",
+					"isShow": "true"
+				},
+				{
+					"name": "button_row",
+					"isShow": "true"
+				},
+				{
+					"name": "button_incar_colour",
+					"isShow": "false"
+				},
+				{
+					"name": "button_infoPic",
+					"isShow": "false"
+				},
+				{
+					"name": "button_persondata",
+					"isShow": "false"
+				}
+			]
+		},
+		"inSpaceUIs": {
+			"uis": [
+				{
+					"name": "button_colour",
+					"isShow": "false"
+				},
+				{
+					"name": "button_hub",
+					"isShow": "false"
+				},
+				{
+					"name": "button_lights",
+					"isShow": "false"
+				},
+				{
+					"name": "button_photograph",
+					"isShow": "false"
+				},
+				{
+					"name": "button_info",
+					"isShow": "false"
+				},
+				{
+					"name": "button_dynamic",
+					"isShow": "false"
+				},
+				{
+					"name": "button_offer",
+					"isShow": "false"
+				},
+				{
+					"name": "button_praise",
+					"isShow": "false"
+				},
+				{
+					"name": "button_DoublePK",
+					"isShow": "false"
+				},
+				{
+					"name": "button_climb",
+					"isShow": "false"
+				},
+				{
+					"name": "button_refit",
+					"isShow": "false"
+				},
+				{
+					"name": "button_curve",
+					"isShow": "false"
+				},
+				{
+					"name": "button_voice",
+					"isShow": "false"
+				},
+				{
+					"name": "button_row",
+					"isShow": "true"
+				},
+				{
+					"name": "button_incar_colour",
+					"isShow": "false"
+				},
+				{
+					"name": "button_infoPic",
+					"isShow": "false"
+				},
+				{
+					"name": "button_persondata",
+					"isShow": "false"
+				}
+			]
+		},
+		"hideGameObjects": [
+			"FullView_Ball",
+			"Line001",
+			"PKback",
+			"Arrow_In_L1",
+			"Arrow_In_R1",
+			"Arrow_In_L",
+			"Arrow_In_R",
+			"Panel_Obj_Front",
+			"praisePlane",
+			"SpaceLook_Points",
+			"ScoreFather",
+			"Configuration_Points",
+			"carInformation",
+			"backLine",
+			"somecarspeeduproot",
+			"Car_Road"
+		],
+		"carAnim": {
+			"animationObj": "LFX2_20180207V4",
+			"pickingComs": [
+				{
+					"anim": "LFO",
+					"_anim": "LFC",
+					"channel": 1,
+					"type": "FL",
+					"pickNode": [
+						"Door_LF_Paint",
+						"Door_LF_Cloth"
+					]
+				},
+				{
+					"anim": "RFO",
+					"_anim": "RFC",
+					"channel": 2,
+					"type": "FR",
+					"pickNode": [
+						"Door_RF_Paint",
+						"Door_RF_Cloth"
+					]
+				},
+				{
+					"anim": "LBO",
+					"_anim": "LBC",
+					"channel": 3,
+					"type": "BL",
+					"pickNode": [
+						"Door_LB_Paint",
+						"Door_LB_Cloth"
+					]
+				},
+				{
+					"anim": "RBO",
+					"_anim": "RBC",
+					"channel": 4,
+					"type": "BR",
+					"pickNode": [
+						"Door_RB_Paint",
+						"Door_RB_Cloth"
+					]
+				},
+				{
+					"anim": "TO",
+					"_anim": "TC",
+					"channel": 5,
+					"type": "Trunk",
+					"pickNode": [
+						"Trunk_Body_Paint",
+						"Trunk_Body_Plate"
+					]
+				}
+			]
+		},
+		"carColorChange": {
+			"params": {
+				"nativeColors": [
+					{
+						"colorID": 0,
+						"colorName": "昆仑白",
+						"r": 189,
+						"g": 188,
+						"b": 184,
+						"a": 255
+					},
+					{
+						"colorID": 1,
+						"colorName": "戈壁灰",
+						"r": 77,
+						"g": 76,
+						"b": 75,
+						"a": 255
+					},
+					{
+						"colorID": 2,
+						"colorName": "琥珀金",
+						"r": 92,
+						"g": 84,
+						"b": 74,
+						"a": 255
+					},
+					{
+						"colorID": 3,
+						"colorName": "琉璃金",
+						"r": 51,
+						"g": 44,
+						"b": 38,
+						"a": 255
+					},
+					{
+						"colorID": 4,
+						"colorName": "中国红",
+						"r": 100,
+						"g": 15,
+						"b": 13,
+						"a": 255
+					}
+				],
+				"colors": [
+					{
+						"diffuse": {
+							"r": 189,
+							"g": 188,
+							"b": 184,
+							"a": 255
+						},
+						"specular": {
+							"r": 128,
+							"g": 128,
+							"b": 128,
+							"a": 255
+						},
+						"cubemap": {
+							"r": 17,
+							"g": 17,
+							"b": 17,
+							"a": 255
+						},
+						"shininess": 200,
+						"colorName": "昆仑白"
+					},
+					{
+						"diffuse": {
+							"r": 77,
+							"g": 76,
+							"b": 75,
+							"a": 255
+						},
+						"specular": {
+							"r": 151,
+							"g": 152,
+							"b": 146,
+							"a": 255
+						},
+						"cubemap": {
+							"r": 55,
+							"g": 55,
+							"b": 55,
+							"a": 255
+						},
+						"shininess": 200,
+						"colorName": "戈壁灰"
+					},
+					{
+						"diffuse": {
+							"r": 92,
+							"g": 84,
+							"b": 74,
+							"a": 255
+						},
+						"specular": {
+							"r": 174,
+							"g": 154,
+							"b": 117,
+							"a": 255
+						},
+						"cubemap": {
+							"r": 55,
+							"g": 55,
+							"b": 55,
+							"a": 255
+						},
+						"shininess": 25,
+						"colorName": "琥珀金"
+					},
+					{
+						"diffuse": {
+							"r": 51,
+							"g": 44,
+							"b": 38,
+							"a": 255
+						},
+						"specular": {
+							"r": 114,
+							"g": 103,
+							"b": 86,
+							"a": 255
+						},
+						"cubemap": {
+							"r": 55,
+							"g": 55,
+							"b": 55,
+							"a": 255
+						},
+						"shininess": 25,
+						"colorName": "琉璃金"
+					},
+					{
+						"diffuse": {
+							"r": 100,
+							"g": 15,
+							"b": 13,
+							"a": 255
+						},
+						"specular": {
+							"r": 206,
+							"g": 120,
+							"b": 120,
+							"a": 255
+						},
+						"cubemap": {
+							"r": 55,
+							"g": 55,
+							"b": 55,
+							"a": 255
+						},
+						"shininess": 25,
+						"colorName": "中国红"
+					}
+				],
+				"carPaintNodes": [
+					{
+						"name": "Body_Paint",
+						"colorID": [
+							{
+								"id": 0,
+								"index": 0
+							},
+							{
+								"id": 1,
+								"index": 1
+							},
+							{
+								"id": 2,
+								"index": 2
+							},
+							{
+								"id": 3,
+								"index": 3
+							},
+							{
+								"id": 4,
+								"index": 4
+							}
+						]
+					},
+					{
+						"name": "Trunk_Body_Paint",
+						"colorID": [
+							{
+								"id": 0,
+								"index": 0
+							},
+							{
+								"id": 1,
+								"index": 1
+							},
+							{
+								"id": 2,
+								"index": 2
+							},
+							{
+								"id": 3,
+								"index": 3
+							},
+							{
+								"id": 4,
+								"index": 4
+							}
+						]
+					},
+					{
+						"name": "Door_LF_Paint",
+						"colorID": [
+							{
+								"id": 0,
+								"index": 0
+							},
+							{
+								"id": 1,
+								"index": 1
+							},
+							{
+								"id": 2,
+								"index": 2
+							},
+							{
+								"id": 3,
+								"index": 3
+							},
+							{
+								"id": 4,
+								"index": 4
+							}
+						]
+					},
+					{
+						"name": "Door_LB_Paint",
+						"colorID": [
+							{
+								"id": 0,
+								"index": 0
+							},
+							{
+								"id": 1,
+								"index": 1
+							},
+							{
+								"id": 2,
+								"index": 2
+							},
+							{
+								"id": 3,
+								"index": 3
+							},
+							{
+								"id": 4,
+								"index": 4
+							}
+						]
+					},
+					{
+						"name": "Door_RF_Paint",
+						"colorID": [
+							{
+								"id": 0,
+								"index": 0
+							},
+							{
+								"id": 1,
+								"index": 1
+							},
+							{
+								"id": 2,
+								"index": 2
+							},
+							{
+								"id": 3,
+								"index": 3
+							},
+							{
+								"id": 4,
+								"index": 4
+							}
+						]
+					},
+					{
+						"name": "Door_RB_Paint",
+						"colorID": [
+							{
+								"id": 0,
+								"index": 0
+							},
+							{
+								"id": 1,
+								"index": 1
+							},
+							{
+								"id": 2,
+								"index": 2
+							},
+							{
+								"id": 3,
+								"index": 3
+							},
+							{
+								"id": 4,
+								"index": 4
+							}
+						]
+					},
+					{
+						"name": "FrontGrille_A_Paint",
+						"colorID": [
+							{
+								"id": 0,
+								"index": 0
+							},
+							{
+								"id": 1,
+								"index": 1
+							},
+							{
+								"id": 2,
+								"index": 2
+							},
+							{
+								"id": 3,
+								"index": 3
+							},
+							{
+								"id": 4,
+								"index": 4
+							}
+						]
+					},
+					{
+						"name": "PostSiege_A_Paint",
+						"colorID": [
+							{
+								"id": 0,
+								"index": 0
+							},
+							{
+								"id": 1,
+								"index": 1
+							},
+							{
+								"id": 2,
+								"index": 2
+							},
+							{
+								"id": 3,
+								"index": 3
+							},
+							{
+								"id": 4,
+								"index": 4
+							}
+						]
+					}
+				],
+				"changeTime": 3
+			}
+		},
+		"carLight": {
+			"params": {
+				"lensFlares": [
+					{
+						"parentName": "Car_LFX2",
+						"nodeName": "flare0",
+						"posType": "front",
+						"localPosition": {
+							"x": -0.7386,
+							"y": 0.053,
+							"z": 1.7386
+						},
+						"flares": [
+							{
+								"flareSize": 0.1,
+								"flareColor": {
+									"r": 1,
+									"g": 1,
+									"b": 1,
+									"a": 1
+								}
+							}
+						]
+					},
+					{
+						"parentName": "Car_LFX2",
+						"nodeName": "flare1",
+						"posType": "front",
+						"localPosition": {
+							"x": 0.7386,
+							"y": 0.053,
+							"z": 1.7386
+						},
+						"flares": [
+							{
+								"flareSize": 0.1,
+								"flareColor": {
+									"r": 1,
+									"g": 1,
+									"b": 1,
+									"a": 1
+								}
+							}
+						]
+					},
+					{
+						"parentName": "Car_LFX2",
+						"nodeName": "flare3",
+						"posType": "front",
+						"localPosition": {
+							"x": -0.653,
+							"y": 0.0312,
+							"z": 1.842
+						},
+						"flares": [
+							{
+								"flareSize": 0.1,
+								"flareColor": {
+									"r": 1,
+									"g": 1,
+									"b": 1,
+									"a": 1
+								}
+							}
+						]
+					},
+					{
+						"parentName": "Car_LFX2",
+						"nodeName": "flare4",
+						"posType": "front",
+						"localPosition": {
+							"x": 0.653,
+							"y": 0.0312,
+							"z": 1.842
+						},
+						"flares": [
+							{
+								"flareSize": 0.1,
+								"flareColor": {
+									"r": 1,
+									"g": 1,
+									"b": 1,
+									"a": 1
+								}
+							}
+						]
+					},
+					{
+						"parentName": "Car_LFX2",
+						"nodeName": "flare5",
+						"posType": "back",
+						"localPosition": {
+							"x": 0.763,
+							"y": 0.241,
+							"z": -1.975
+						},
+						"flares": [
+							{
+								"flareSize": 0.1,
+								"flareColor": {
+									"r": 1,
+									"g": 0,
+									"b": 0,
+									"a": 1
+								}
+							}
+						]
+					},
+					{
+						"parentName": "Car_LFX2",
+						"nodeName": "flare6",
+						"posType": "back",
+						"localPosition": {
+							"x": -0.763,
+							"y": 0.241,
+							"z": -1.975
+						},
+						"flares": [
+							{
+								"flareSize": 0.1,
+								"flareColor": {
+									"r": 1,
+									"g": 0,
+									"b": 0,
+									"a": 1
+								}
+							}
+						]
+					},
+					{
+						"parentName": "Trunk_Body",
+						"nodeName": "flare7",
+						"posType": "back",
+						"localPosition": {
+							"x": 0.6291,
+							"y": -0.5713,
+							"z": -0.4443
+						},
+						"flares": [
+							{
+								"flareSize": 0.1,
+								"flareColor": {
+									"r": 1,
+									"g": 0,
+									"b": 0,
+									"a": 1
+								}
+							}
+						]
+					},
+					{
+						"parentName": "Trunk_Body",
+						"nodeName": "flare8",
+						"posType": "back",
+						"localPosition": {
+							"x": -0.6291,
+							"y": -0.5713,
+							"z": -0.4443
+						},
+						"flares": [
+							{
+								"flareSize": 0.1,
+								"flareColor": {
+									"r": 1,
+									"g": 0,
+									"b": 0,
+									"a": 1
+								}
+							}
+						]
+					}
+				],
+				"lightChangeConfig": [
+					{
+						"nodeName": "FrontGrille_A_Light",
+						"pos": "front",
+						"lightOffColor": {
+							"r": 0.3,
+							"g": 0.3,
+							"b": 0.3,
+							"a": 1
+						},
+						"lightOnColor": {
+							"r": 1,
+							"g": 1,
+							"b": 1,
+							"a": 1
+						},
+						"lightOffMap": {
+							"asset": {
+								"name": "lightOff",
+								"type": "texture",
+								"url": "project://LF_X2/lightOff.jpg"
+							}
+						},
+						"lightOnMap": {
+							"asset": {
+								"name": "lightOn",
+								"type": "texture",
+								"url": "project://LF_X2/lightOn.jpg"
+							}
+						}
+					},
+					{
+						"nodeName": "Light_A_Other",
+						"pos": "back",
+						"lightOffColor": {
+							"r": 0.3,
+							"g": 0.3,
+							"b": 0.3,
+							"a": 1
+						},
+						"lightOnColor": {
+							"r": 1,
+							"g": 1,
+							"b": 1,
+							"a": 1
+						},
+						"lightOffMap": {
+							"asset": {
+								"name": "lightOff",
+								"type": "texture",
+								"url": "project://LF_X2/lightOff.jpg"
+							}
+						},
+						"lightOnMap": {
+							"asset": {
+								"name": "lightOn",
+								"type": "texture",
+								"url": "project://LF_X2/lightOn.jpg"
+							}
+						}
+					},
+					{
+						"nodeName": "Body_Light",
+						"pos": "back",
+						"lightOffColor": {
+							"r": 0.3,
+							"g": 0.3,
+							"b": 0.3,
+							"a": 1
+						},
+						"lightOnColor": {
+							"r": 1,
+							"g": 1,
+							"b": 1,
+							"a": 1
+						},
+						"lightOffMap": {
+							"asset": {
+								"name": "lightOff",
+								"type": "texture",
+								"url": "project://LF_X2/lightOff.jpg"
+							}
+						},
+						"lightOnMap": {
+							"asset": {
+								"name": "lightOn",
+								"type": "texture",
+								"url": "project://LF_X2/lightOn.jpg"
+							}
+						}
+					},
+					{
+						"nodeName": "Light_A_DaytimeRunning",
+						"pos": "back",
+						"lightOffColor": {
+							"r": 0.3,
+							"g": 0.3,
+							"b": 0.3,
+							"a": 1
+						},
+						"lightOnColor": {
+							"r": 1,
+							"g": 1,
+							"b": 1,
+							"a": 1
+						},
+						"lightOffMap": {
+							"asset": {
+								"name": "lightOff",
+								"type": "texture",
+								"url": "project://LF_X2/lightOff.jpg"
+							}
+						},
+						"lightOnMap": {
+							"asset": {
+								"name": "lightOn",
+								"type": "texture",
+								"url": "project://LF_X2/lightOn.jpg"
+							}
+						}
+					},
+					{
+						"nodeName": "PostSiege_A_Light",
+						"pos": "front",
+						"lightOffColor": {
+							"r": 0.3,
+							"g": 0.3,
+							"b": 0.3,
+							"a": 1
+						},
+						"lightOnColor": {
+							"r": 1,
+							"g": 1,
+							"b": 1,
+							"a": 1
+						},
+						"lightOffMap": {
+							"asset": {
+								"name": "lightOff",
+								"type": "texture",
+								"url": "project://LF_X2/lightOff.jpg"
+							}
+						},
+						"lightOnMap": {
+							"asset": {
+								"name": "lightOn",
+								"type": "texture",
+								"url": "project://LF_X2/lightOn.jpg"
+							}
+						}
+					},
+					{
+						"nodeName": "Trunk_Body_Light",
+						"pos": "front",
+						"lightOffColor": {
+							"r": 0.3,
+							"g": 0.3,
+							"b": 0.3,
+							"a": 1
+						},
+						"lightOnColor": {
+							"r": 1,
+							"g": 1,
+							"b": 1,
+							"a": 1
+						},
+						"lightOffMap": {
+							"asset": {
+								"name": "lightOff",
+								"type": "texture",
+								"url": "project://LF_X2/lightOff.jpg"
+							}
+						},
+						"lightOnMap": {
+							"asset": {
+								"name": "lightOn",
+								"type": "texture",
+								"url": "project://LF_X2/lightOn.jpg"
+							}
+						}
+					},
+					{
+						"nodeName": "Door_LF_Light",
+						"pos": "front",
+						"lightOffColor": {
+							"r": 0.3,
+							"g": 0.3,
+							"b": 0.3,
+							"a": 1
+						},
+						"lightOnColor": {
+							"r": 1,
+							"g": 1,
+							"b": 1,
+							"a": 1
+						},
+						"lightOffMap": {
+							"asset": {
+								"name": "lightOff",
+								"type": "texture",
+								"url": "project://LF_X2/lightOff.jpg"
+							}
+						},
+						"lightOnMap": {
+							"asset": {
+								"name": "lightOn",
+								"type": "texture",
+								"url": "project://LF_X2/lightOn.jpg"
+							}
+						}
+					},
+					{
+						"nodeName": "Door_RF_Light",
+						"pos": "front",
+						"lightOffColor": {
+							"r": 0.3,
+							"g": 0.3,
+							"b": 0.3,
+							"a": 1
+						},
+						"lightOnColor": {
+							"r": 1,
+							"g": 1,
+							"b": 1,
+							"a": 1
+						},
+						"lightOffMap": {
+							"asset": {
+								"name": "lightOff",
+								"type": "texture",
+								"url": "project://LF_X2/lightOff.jpg"
+							}
+						},
+						"lightOnMap": {
+							"asset": {
+								"name": "lightOn",
+								"type": "texture",
+								"url": "project://LF_X2/lightOn.jpg"
+							}
+						}
+					}
+				]
+			}
+		},
+		"carConfiguration": {
+			"params": {
+				"carInfomation": {
+					"root": "carInformation",
+					"strechNodes": [
+						{
+							"node": "CarWidthP_L",
+							"startV2": {
+								"x": 0,
+								"y": 0
+							},
+							"endV2": {
+								"x": 0.17,
+								"y": 0
+							}
+						},
+						{
+							"node": "CarWidthP_R",
+							"startV2": {
+								"x": 0,
+								"y": 0
+							},
+							"endV2": {
+								"x": 0.17,
+								"y": 0
+							}
+						},
+						{
+							"node": "CarLong_right",
+							"startV2": {
+								"x": 0,
+								"y": 0
+							},
+							"endV2": {
+								"x": 0.17,
+								"y": 0
+							}
+						},
+						{
+							"node": "CarLong_left",
+							"startV2": {
+								"x": 0,
+								"y": 0
+							},
+							"endV2": {
+								"x": 0.17,
+								"y": 0
+							}
+						},
+						{
+							"node": "WheelBaseP_L",
+							"startV2": {
+								"x": 0,
+								"y": 0
+							},
+							"endV2": {
+								"x": 0.17,
+								"y": 0
+							}
+						},
+						{
+							"node": "WheelBaseP_R",
+							"startV2": {
+								"x": 0,
+								"y": 0
+							},
+							"endV2": {
+								"x": 0.17,
+								"y": 0
+							}
+						},
+						{
+							"node": "WheelBaseP_L",
+							"startV2": {
+								"x": -0.05,
+								"y": 0
+							},
+							"endV2": {
+								"x": 0,
+								"y": 0
+							}
+						},
+						{
+							"node": "WheelBaseP_R",
+							"startV2": {
+								"x": 0,
+								"y": 0
+							},
+							"endV2": {
+								"x": 0.17,
+								"y": 0
+							}
+						},
+						{
+							"node": "WheelBaseP_L",
+							"startV2": {
+								"x": 0,
+								"y": 0
+							},
+							"endV2": {
+								"x": 0.17,
+								"y": 0
+							}
+						},
+						{
+							"node": "TopHigh_up",
+							"startV2": {
+								"x": -0.05,
+								"y": 0
+							},
+							"endV2": {
+								"x": 0,
+								"y": 0
+							}
+						},
+						{
+							"node": "TopHigh_down",
+							"startV2": {
+								"x": -0.05,
+								"y": 0
+							},
+							"endV2": {
+								"x": 0,
+								"y": 0
+							}
+						}
+					],
+					"numRolls": [
+						{
+							"name": "BottomHighNum",
+							"startNum": 0,
+							"endNum": 180,
+							"text": ""
+						},
+						{
+							"name": "CarLongNum",
+							"startNum": 0,
+							"endNum": 4160,
+							"text": ""
+						},
+						{
+							"name": "TopHighNum",
+							"startNum": 0,
+							"endNum": 1670,
+							"text": ""
+						},
+						{
+							"name": "WheelBaseNumber3",
+							"startNum": 0,
+							"endNum": 2560,
+							"text": ""
+						},
+						{
+							"name": "CarWidthNumber3",
+							"startNum": 0,
+							"endNum": 1810,
+							"text": ""
+						}
+					]
+				}
+			}
+		},
+		"carPraise": {
+			"params": {
+				"scoreConfig": {
+					"root": "ScoreFather",
+					"animConfig": {
+						"animNode": "scoreAll",
+						"loop": "false",
+						"autoPlay": "false",
+						"clipName": "ScoreShowSpace"
+					},
+					"starNode": [
+						"star_1",
+						"star_2",
+						"star_3",
+						"star_4",
+						"star_5"
+					],
+					"scoreText": [
+						"scoreNumText",
+						"scorePersonText"
+					],
+					"scoreBillboard": "ScoreLookAt"
+				},
+				"billboardGroup": {
+					"root": "praisePlane",
+					"billboards": [
+						{
+							"parent": "praise_waiguan_1",
+							"node": "praiseline_1",
+							"text": "前脸看起来比较霸气",
+							"evenId": [
+								"ar_showcar_semantic_appearance",
+								"8",
+								"43752"
+							]
+						},
+						{
+							"parent": "praise_peizhi_2",
+							"node": "praiseline_2",
+							"text": "车子功能强大",
+							"evenId": [
+								"ar_showcar_semantic_config",
+								"14",
+								"43769"
+							]
+						},
+						{
+							"parent": "praise_dongli_3",
+							"node": "praiseline_3",
+							"text": "发动机动力非常满意",
+							"evenId": [
+								"ar_showcar_semantic_power",
+								"4",
+								"45577"
+							]
+						},
+						{
+							"parent": "praise_caokong_4",
+							"node": "praiseline_4",
+							"text": "操控挺好",
+							"evenId": [
+								"ar_showcar_semantic_operation",
+								"5",
+								"39875"
+							]
+						},
+						{
+							"parent": "praise_kongjian_5",
+							"node": "praiseline_5",
+							"text": "空间不错",
+							"evenId": [
+								"ar_showcar_semantic_space",
+								"3",
+								"72097"
+							]
+						},
+						{
+							"parent": "praise_neishi_6",
+							"node": "praiseline_6",
+							"text": "内饰做工不错",
+							"evenId": [
+								"ar_showcar_semantic_interior",
+								"9",
+								"74041"
+							]
+						},
+						{
+							"parent": "praise_shushixing_7",
+							"node": "praiseline_7",
+							"text": "舒适性不错",
+							"evenId": [
+								"ar_showcar_semantic_interior",
+								"7",
+								"42773"
+							]
+						}
+					]
+				},
+				"linesGroup": {
+					"root": "praisePlane",
+					"lines": [
+						"praiseplane_1",
+						"praiseplane_2",
+						"praiseplane_3",
+						"praiseplane_4",
+						"praiseplane_5",
+						"praiseplane_6",
+						"praiseplane_7"
+					]
+				}
+			}
+		},
+		"carRun": {
+			"params": {
+				"wheels": [
+					"Wheel_BL",
+					"Wheel_BR",
+					"Wheel_FL",
+					"Wheel_FR"
+				],
+				"runPanelConfig": {
+					"root": "Panel_Obj_Front",
+					"speedNumNode": {
+						"name": "speed_0_Front",
+						"startNum": 0,
+						"endNum": 0,
+						"text": ""
+					},
+					"timeNumNode": {
+						"name": "time_0_Front",
+						"startNum": 0,
+						"endNum": 0,
+						"text": ""
+					},
+					"fuelNumNode": {
+						"name": "brakeNumber0_Front",
+						"startNum": 0,
+						"endNum": 0,
+						"text": ""
+					},
+					"brakeNumNode": {
+						"name": "brakeNumber1_Front",
+						"startNum": 0,
+						"endNum": 0,
+						"text": ""
+					}
+				},
+				"brakeConfig": {
+					"root": "backLine",
+					"brakeNumNode": {
+						"name": "backLineNumber0",
+						"startNum": 0,
+						"endNum": 0,
+						"text": ""
+					},
+					"strechNodes": [
+						{
+							"node": "backLineP_R",
+							"startV2": {
+								"x": 0,
+								"y": 0
+							},
+							"endV2": {
+								"x": 0.17,
+								"y": 0
+							}
+						},
+						{
+							"node": "backLineHong_R",
+							"startV2": {
+								"x": 0,
+								"y": 0
+							},
+							"endV2": {
+								"x": 0.17,
+								"y": 0
+							}
+						}
+					]
+				},
+				"roadConfig": {
+					"root": "Car_Surrounding",
+					"road": "Car_Road"
+				},
+				"speedMAX": 100,
+				"fuelMAX": 42.5,
+				"brakeLength": 43.53,
+				"speedUpTime": 11.08
+			}
+		},
+		"doublecarRun": {
+			"params": {
+				"rootNode": "LFX2_20180207V4",
+				"speedupPKPosOffset": 0.2,
+				"carname": "陆风-X2",
+				"somecarspeeduproot": "somecarspeeduproot",
+				"baigonglijia": "baigonglijia",
+				"carnamenode": "carname",
+				"speedupLabel": "speedupLabel",
+				"unlitnode": "unlit_speedupPK",
+				"timespeedupPK": "time_speedupPK",
+				"speedNum": "speedNum_speedupPK",
+				"trophy": "trophy",
+				"PKBackDistance": "PKBackDistance",
+				"speedUpTime": 11.08,
+				"carlong": 4160,
+				"wheels": [
+					"Wheel_BL",
+					"Wheel_BR",
+					"Wheel_FL",
+					"Wheel_FR"
+				]
+			}
+		},
+		"doublecarBreak": {
+			"params": {
+				"rootNode": "LFX2_20180207V4",
+				"speedupPKPosOffset": 0.2,
+				"carname": "陆风-X2",
+				"somecarspeeduproot": "somecarspeeduproot",
+				"baigonglijia": "baigonglijia",
+				"carnamenode": "carname",
+				"speedupLabel": "speedupLabel",
+				"unlitnode": "unlit_speedupPK",
+				"timespeedupPK": "time_speedupPK",
+				"speedNum": "speedNum_speedupPK",
+				"trophy": "trophy",
+				"PKBackDistance": "PKBackDistance",
+				"PKBack": "PKback",
+				"CheTouDian": "chetoudian",
+				"NumDian": "numdian",
+				"ShaCheXianRight": "shachexian_right",
+				"ShaCheXianLeft": "shachexian_left",
+				"ShaCheHengRight": "shacheheng_right",
+				"ShaCheHengLeft": "shacheheng_left",
+				"BreakDistance": 43.53,
+				"wheels": [
+					"Wheel_BL",
+					"Wheel_BR",
+					"Wheel_FL",
+					"Wheel_FR"
+				]
+			}
+		},
+		"carParts": null,
+		"carNoise": {
+			"speed0": 43.3,
+			"speed60": 59.6,
+			"speed80": 64.9,
+			"speed120": 69.6
+		},
+		"carPersonSpace": {
+			"doors": {
+				"door_LF": "Door_LF",
+				"door_LB": "Door_LB"
+			},
+			"people": {
+				"peopleRoot": "Car_People",
+				"people_maxHeight": 185,
+				"people_defaultHeight": 170,
+				"people_minHeight": 155,
+				"seatHigh_F": 96,
+				"seatHigh_B": 96,
+				"seatLong_B": 85,
+				"bodyLong": 0.53,
+				"thighLong": 0.37,
+				"bodyProportion": 0.48,
+				"thighProportion": 0.375,
+				"people_F": {
+					"nodeName": "car_pepole1",
+					"bodyName": "car_pepole1_body",
+					"headName": "car_pepole1_HeadFather",
+					"thighName": "car_pepole1_thigh",
+					"crusName": "car_pepole1_CrusFather"
+				},
+				"people_B": {
+					"nodeName": "car_pepole2",
+					"bodyName": "car_pepole2_body",
+					"headName": "car_pepole2_HeadFather",
+					"thighName": "car_pepole2_thigh",
+					"crusName": "car_pepole2_CrusFather"
+				}
+			},
+			"panels": {
+				"panelRoot": "SpaceLook_Points",
+				"headSpaceInfoPanel_F": {
+					"nodeName": "headspace_set_1",
+					"panelName": "headspacePointPlane_1_1"
+				},
+				"headSpaceInfoPanel_B": {
+					"nodeName": "headspace_set_2",
+					"panelName": "headspacePointPlane_2_1"
+				},
+				"legSpaceInfoPanel_B": {
+					"nodeName": "legspace_set_1",
+					"panelName": "legspacePointPlane_1_1"
+				}
+			}
+		},
+		"carClimb": null,
+		"wheels": {
+			"params": {
+				"frontWheelsPoint": "frontWheelsPoint",
+				"backWheelsPoint": "backWheelsPoint",
+				"wheelFL": {
+					"center": "Wheel_FL",
+					"radiusPoint": "Wheel_FL_radius",
+					"axis": [
+						1,
+						0,
+						0
+					]
+				},
+				"wheelFR": {
+					"center": "Wheel_FR",
+					"radiusPoint": "Wheel_FR_radius",
+					"axis": [
+						1,
+						0,
+						0
+					]
+				},
+				"wheelBL": {
+					"center": "Wheel_BL",
+					"radiusPoint": "Wheel_BL_radius",
+					"axis": [
+						1,
+						0,
+						0
+					]
+				},
+				"wheelBR": {
+					"center": "Wheel_BR",
+					"radiusPoint": "Wheel_BR_radius",
+					"axis": [
+						1,
+						0,
+						0
+					]
+				}
+			}
+		},
+		"texture360": [
+			{
+				"pos": "F",
+				"colorName": "default",
+				"color": null,
+				"topurl": "project://LF_X2/360Map/fontView_top.jpg",
+				"middleurl": "project://LF_X2/360Map/fontView_middle.jpg",
+				"bottomurl": "project://LF_X2/360Map/fontView_bottom.jpg"
+			},
+			{
+				"pos": "B",
+				"colorName": "default",
+				"color": null,
+				"topurl": "project://LF_X2/360Map/backView_top.jpg",
+				"middleurl": "project://LF_X2/360Map/backView_middle.jpg",
+				"bottomurl": "project://LF_X2/360Map/backView_bottom.jpg"
+			}
+		],
+		"intoCar": {
+			"inHandParent": "Static_Obj",
+			"outHandParent": "Arrow_Out",
+			"leftDoor": {
+				"F": {
+					"angle": {
+						"x": 0,
+						"y": -120,
+						"z": 0
+					},
+					"obj": "Arrow_In_L",
+					"insideObj": "Arrow_In_L_quanjing"
+				},
+				"B": {
+					"angle": {
+						"x": 0,
+						"y": -120,
+						"z": 0
+					},
+					"obj": "Arrow_In_L1",
+					"insideObj": "Arrow_In_BL_quanjing"
+				}
+			},
+			"rightDoor": {
+				"F": {
+					"angle": {
+						"x": 0,
+						"y": -227,
+						"z": 0
+					},
+					"obj": "Arrow_In_R",
+					"insideObj": "Arrow_In_R_quanjing"
+				},
+				"B": {
+					"angle": {
+						"x": 0,
+						"y": -227,
+						"z": 0
+					},
+					"obj": "Arrow_In_R1",
+					"insideObj": "Arrow_In_BR_quanjing"
+				}
+			},
+			"car360Scene": "FullView_Ball",
+			"car": "Car_LFX2"
+		},
+		"interiorSign": {
+			"root": "inInformation",
+			"signs": []
+		},
+		"fix360Map": {
+			"nodes": {
+				"bottom": "bottom",
+				"middle": "middle",
+				"top": "top"
+			},
+			"assets": []
+		},
+		"trunkData": {
+			"trunkDataRoot": "trunk_space_date",
+			"trunkLong": {
+				"value": 680,
+				"root": "trunkLong",
+				"line_L": "trunkLongP_L",
+				"startuv_L": {
+					"x": -0.15,
+					"y": 0
+				},
+				"enduv_L": {
+					"x": 0.17,
+					"y": 0
+				},
+				"line_R": "trunkLongP_R",
+				"startuv_R": {
+					"x": -0.15,
+					"y": 0
+				},
+				"enduv_R": {
+					"x": -0.15,
+					"y": 0
+				},
+				"textNode": "trunkLongNumber1",
+				"textEulerAngle": {
+					"x": 180,
+					"y": 0,
+					"z": 180
+				},
+				"textSize": 9
+			},
+			"trunkHight": {
+				"value": 740,
+				"root": "trunkhight",
+				"line_L": "trunkhightP_L",
+				"startuv_L": {
+					"x": -0.15,
+					"y": 0
+				},
+				"enduv_L": {
+					"x": 0.17,
+					"y": 0
+				},
+				"line_R": "trunkhightP_R",
+				"startuv_R": {
+					"x": -0.15,
+					"y": 0
+				},
+				"enduv_R": {
+					"x": -0.15,
+					"y": 0
+				},
+				"textNode": "trunkhightNumber1",
+				"textEulerAngle": {
+					"x": 90,
+					"y": 0,
+					"z": -180
+				},
+				"textSize": 8
+			},
+			"trunkWidth": {
+				"value": 1110,
+				"root": "trunkWidth",
+				"line_L": "trunkWidthP_L",
+				"startuv_L": {
+					"x": -0.15,
+					"y": 0
+				},
+				"enduv_L": {
+					"x": -0.15,
+					"y": 0
+				},
+				"line_R": "trunkWidthP_R",
+				"startuv_R": {
+					"x": -0.15,
+					"y": 0
+				},
+				"enduv_R": {
+					"x": 0.17,
+					"y": 0
+				},
+				"textNode": "trunkWidthNumber1",
+				"textEulerAngle": {
+					"x": 0,
+					"y": 90,
+					"z": 0
+				},
+				"textSize": 7
+			},
+			"trunkVolume": {
+				"value": null,
+				"textNode": "thunk_VolumeNumber",
+				"textEulerAngle": {
+					"x": 0,
+					"y": 90,
+					"z": 0
+				},
+				"textSize": 7
+			},
+			"boxRoot": null,
+			"boxModel": []
+		},
+		"comprehensiveAndPice": {
+			"assetName": "tex_Comprehensive",
+			"parent": "Car_LFX2",
+			"comprehensivePos": null,
+			"picePos": { "x": 0, "y": 1.7, "z": -1.7 }
+		},
+		"robot": {
+			"JiaJiaXiaoMiParent": "Car_Surrounding",
+			"JiaJiaXiaoMiPos": null,
+			"JiaJiaXiaoMiRotaXYZ": null,
+			"RoadNodeName": "Car_Road"
+		},
+		"CarTurn": null,
+		"DoorPickPrompt": {
+			"LFPointParent": "Car_LFX2",
+			"LFPointPos": {
+				"x": 0.909,
+				"y": 0.0905,
+				"z": -0.1341
+			},
+			"LFPointRota": {
+				"x": 0,
+				"y": 90,
+				"z": 0
+			},
+			"TrunkPointParent": "Car_LFX2",
+			"TrunkPointPos": {
+				"x": 0,
+				"y": 0.257,
+				"z": -2.155
+			},
+			"TrunkPointRota": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		}
+	}
+}

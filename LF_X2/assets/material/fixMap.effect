@@ -1,0 +1,59 @@
+{
+  "name" : "hero",
+  "attributes" : {
+    "aPosition"      : "geometry[${geometryUuid}].position",
+    "aUV"            : "geometry[${geometryUuid}].uv"
+  },
+  "uniforms" : {
+    "uModelToWorldMatrix"   : "modelToWorldMatrix",
+    "uWorldToScreenMatrix"  : { "binding" : { "property" : "worldToScreenMatrix", "source" : "renderer" } },
+    "uBaseMap" : {
+      "binding"       : "material[${materialUuid}].baseMap",
+      "wrapMode"      : "repeat",
+      "textureFilter" : "linear",
+      "mipFilter"     : "linear"
+    },
+	"uFix" : {"binding" : "material[${materialUuid}].fixVal", "default": 0},
+    "uMarkMap" : {
+      "binding"       : "material[${materialUuid}].markMap",
+      "wrapMode"      : "repeat",
+      "textureFilter" : "linear",
+      "mipFilter"     : "linear"
+    }
+  },
+  "macros" : {
+    "HAS_BASE_MAP"           : "material[${materialUuid}].baseMap",
+    "HAS_MARK_MAP"              : "material[${materialUuid}].markMap"
+  },
+  "states" : {
+    "priority"                  : { "binding" : "material[${materialUuid}].priority","default" : 2000 },
+    "zSorted"                   : { "binding" : "material[${materialUuid}].zSorted", "default" :  false },
+    "blendingSource"            : { "binding" : "material[${materialUuid}].blendingSource", "default" : "src_alpha" },
+    "blendingDestination"       : { "binding" : "material[${materialUuid}].blendingDestination", "default" : "one_minus_src_alpha" },
+    "colorMask"                 : { "binding" : "material[${materialUuid}].colorMask" },
+    "depthMask"                 : { "binding" : "material[${materialUuid}].depthMask" },
+    "depthFunction"             : { "binding" : "material[${materialUuid}].depthFunction"},
+    "triangleCulling"           : { "binding" : "material[${materialUuid}].triangleCulling", "default" : "none" },
+    "stencilFunction"           : { "binding" : "material[${materialUuid}].stencilFunction" },
+    "stencilReference"          : { "binding" : "material[${materialUuid}].stencilReference" },
+    "stencilMask"               : { "binding" : "material[${materialUuid}].stencilMask" },
+    "stencilFailOperation"      : { "binding" : "material[${materialUuid}].stencilFailOperation" },
+    "stencilZFailOperation"     : { "binding" : "material[${materialUuid}].stencilZFailOperation" },
+    "stencilZPassOperation"     : { "binding" : "material[${materialUuid}].stencilZPassOperation" },
+    "scissorTest"               : { "binding" : "material[${materialUuid}].scissorTest" },
+    "scissorBox"                : { "binding" : "material[${materialUuid}].scissorBox" },
+    "target"                    : { "binding" : "material[${materialUuid}].target" }
+  },
+  "techniques" : [
+    {
+      "name" : "default",
+      "passes" : [
+        {
+          "name" : "hero",
+          "vertexShader": "#pragma include \"fixMap.vertex.glsl\"",
+          "fragmentShader" : "#pragma include \"fixMap.fragment.glsl\""
+        }
+      ]
+    }
+  ]
+}

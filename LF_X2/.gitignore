@@ -1,0 +1,10 @@
+bin/
+obj/
+obj_ts/
+.vs/
+build/
+assets/*.js
+assets/*.js.map
+scripts/easyar_runtime.ts
+.vscode/
+*.user
